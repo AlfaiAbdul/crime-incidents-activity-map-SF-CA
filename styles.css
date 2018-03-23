@@ -1,5 +1,6 @@
 body {
     background-color: rgba(171, 244, 239, 0.411);
+    margin-bottom: 35px;
 }
 
 .jumbotron {
@@ -13,8 +14,13 @@ h1 {
     font-weight: bold;
 }
 
+h3 {
+    text-align: center;
+
+}
+
 .parag {
-    text-align: justify;
+    text-align: inherit;
     margin-left: auto;
     margin-right: auto;
     width: 90em;
