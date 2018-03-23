@@ -2,11 +2,26 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Multiline</title>
-	<link rel="stylesheet" href="style.css">
-	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<title>Crime incidents SF</title>
+	<link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <script src="https://d3js.org/d3.v3.min.js"></script>
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    
+        <link rel="stylesheet" href="../static/styles.css">
+	
 </head>
 <body>
+		<div class="container"></div>
+	        <div class="row">
+				<div class="col-md-12 jumbotron text-center">
+					<h1>Crime incidents</h1>
+					<p>Icidents occurance for San Francisco between 2015 and 2017</p>
+					<p>Time overlap desplay</p>
+				</div>
+			
+		</div>	
 	<iframe width="100%" height="520" frameborder="0" src="https://alfaiabdul.carto.com/builder/f91d64df-9bc6-466b-9fb4-8fa4a353932e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 </body>
 </html>
