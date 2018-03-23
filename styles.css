@@ -5,7 +5,7 @@ body {
 .jumbotron {
     text-align: center;
     background-color: rgba(9, 208, 98, 0.411);
-    min-height: 75px;
+    min-height: 65px;
 }
 
 h1 {
@@ -13,20 +13,11 @@ h1 {
     font-weight: bold;
 }
 
-
-#pie {
-    width: 100%;
-    height: 100%;
+.parag {
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90em;
+    font-size: 2.5em
+    display: inline-block;
 }
-
-#gauge {
-    width: 100%;
-    height: 100%;
-}
-
-#bubble {
-    text-align: center;
-    width: 100%;
-    height: 100%;
-}
-

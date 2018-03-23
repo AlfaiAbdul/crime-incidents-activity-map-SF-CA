@@ -1,29 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Crime incidents SF</title>
-	<link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <head>
+	   <meta charset="UTF-8">
+	   <title>Crime incidents SF</title>
+	    <link rel="stylesheet" media="screen" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <script src="https://code.jquery.com/jquery.js"></script>
         <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <script src="https://d3js.org/d3.v3.min.js"></script>
         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     
-        <link rel="stylesheet" href="../static/styles.css">
+        <link rel="stylesheet" href="styles.css">
 	
-</head>
-<body>
+    </head>
+    <body>
 		<div class="container"></div>
 	        <div class="row">
 				<div class="col-md-12 jumbotron text-center">
 					<h1>Crime Incidents</h1>
-					<p>Incidents occurrence in San Francisco 2015 and 2017</p>
+					<p>Incidents occurrence in San Francisco 2015-->2017</p>
 					<p>Time/Date overlap display</p>
 				</div>
 			
 		</div>	
-	<iframe width="100%" height="520" frameborder="0" src="https://alfaiabdul.carto.com/builder/f91d64df-9bc6-466b-9fb4-8fa4a353932e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-</body>
+	          <iframe width="100%" height="520" frameborder="250" margin-left="auto" margin-right="auto" src="https://alfaiabdul.carto.com/builder/f91d64df-9bc6-466b-9fb4-8fa4a353932e/embed" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
+	    
+            <p class="parag">For this project, we analyzed the San Francisco Police Department (SFPD) Incident Report, containing a detailed record of police incidents from 2003 to date—January 2018 as of the date of this project.
+				 This report contains over 2 million records, which complicated data movement. 
+				 To amileriate this issue, we narrowed down the scope of our analysis to the 01/01/2010 to 12/31/2017 time span.
+			</p>
+            
+            <p class="parag">In addition to the SFPD report, we also used Census Bureau American Community Survey (ACS) reports for each of the years included in the study report.
+				 These reports provided demographic and socioeconomic information that were correlated with the SFPD report to address various questions we explored.
+			</p>
+			
+			<p class="parag">The datasset displied above are part of the project. To view the complete project please<a  target="_blank" href="https://github.com/rayraysheng/san-francisco-police-incidents-2010-to-2017">CLICK HERE</a>
+			</p>
+        
+    </body>
 </html>
 
 
